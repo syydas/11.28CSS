@@ -1,0 +1,39 @@
+.triple{
+    margin-bottom: 20px;
+}
+
+.left1{
+    float:left; 
+    width:200px; 
+    height:100px;
+    background-color:red; 
+}
+.right1{
+    float:right; 
+    width:200px; 
+    height:100px;
+    background-color:royalblue; 
+}
+.center1{
+    margin-left:100px; 
+    height:100px;
+    background-color:rgb(91, 221, 238); 
+}
+
+.box{
+    display:flex;
+}
+.left2{
+    width:200px;
+     height:100px;
+    background-color:royalblue;
+}
+.right2{
+    width:200px;
+     height:100px;
+    background-color:red;
+}
+.center2{
+    flex-grow:1; 
+    background-color:rgb(91, 221, 238);
+}
